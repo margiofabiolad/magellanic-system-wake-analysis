@@ -1,5 +1,3 @@
-# magellanic-system-wake-analysis
-
 # Kinematic Analysis of the Magellanic System: SMC-LMC Host-Satellite Dynamics
 
 ## Overview
@@ -11,7 +9,7 @@ the **Gaia DR3 survey** with N-body simulations, using coordinate transformation
 velocity field visualizations, and statistical comparisons of stellar populations.
 
 This work was developed as part of doctoral research at IATE (UNC) and extends the
-methodology of Garavito-Camargo et al. (2019) and Fushimi & Mosquera (in prep.)
+methodology of Garavito-Camargo et al. (2019) and Fushimi & Mosquera (2024)
 to the SMC-LMC orbital frame.
 
 ---
@@ -121,8 +119,9 @@ independently as part of this work.
 - Garavito-Camargo, N. et al. (2019). *Hunting for the Dark Matter Wake Induced
   by the LMC*. ApJ, 884, 51.
   [doi:10.3847/1538-4357/ab32eb](https://doi.org/10.3847/1538-4357/ab32eb)
-- Gaia Collaboration (2022). *Gaia Data Release 3*.
-  [doi:10.1051/0004-6361/202243940](https://doi.org/10.1051/0004-6361/202243940)
+- Fushimi, K. & Mosquera, M. et al. (2024). *A determination of the LMC dark matter
+  subhalo mass using the MW halo stars in its gravitational wake*.
+  [arXiv:2309.12989](https://arxiv.org/abs/2309.12989)
 
 ---
 
@@ -133,4 +132,5 @@ independently as part of this work.
 
 *This project was developed during my doctoral research in Astronomy at the
 Instituto de Astronomía Teórica y Experimental (IATE), UNC, under the supervision
-of Dr. Mariano Domínguez.*
+of Dr. Mariano Domínguez and co-supervision of Dr. Mercedes Mosquera
+(Universidad Nacional de La Plata).*
