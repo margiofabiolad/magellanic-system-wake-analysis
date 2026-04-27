@@ -94,10 +94,9 @@ orbital velocity by the blue arrow. The pink line shows the past orbit of the SM
 - **Observational data**: Gaia DR3 survey — globular clusters and RR Lyrae stars
   in the Magellanic System. Publicly available at the
   [Gaia Archive](https://gea.esac.esa.int/archive/).
-  Data were provided pre-processed by the research group; independent cleaning
-  and filtering were not performed in this work.
-- **Simulation data**: N-body simulations from Garavito-Camargo et al. (2019).
-  Not included in this repository due to size.
+  The dataset was downloaded and pre-processed by Mercedes Mosquera and 
+  Keiko Fushimi (Universidad Nacional de La Plata). 
+  Raw data are not included in this repository.
 
 ---
 
@@ -116,9 +115,6 @@ independently as part of this work.
 
 ## References
 
-- Garavito-Camargo, N. et al. (2019). *Hunting for the Dark Matter Wake Induced
-  by the LMC*. ApJ, 884, 51.
-  [doi:10.3847/1538-4357/ab32eb](https://doi.org/10.3847/1538-4357/ab32eb)
 - Fushimi, K. & Mosquera, M. et al. (2024). *A determination of the LMC dark matter
   subhalo mass using the MW halo stars in its gravitational wake*.
   [arXiv:2309.12989](https://arxiv.org/abs/2309.12989)
