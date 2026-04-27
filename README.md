@@ -61,7 +61,7 @@ compared.
 
 ### 2D Quiver: Velocity Fields in the SMC Orbital Plane
 
-![Quiver SMC-LMC](figures/quiver-LMC-host-SMC.png)
+![Quiver SMC-LMC](quiver-LMC-host-SMC.png)
 
 *Velocity fields of Wake (red) and Collective (orange/green) stellar populations
 in the orbital plane of the SMC, with the LMC as host. Points are colored by
