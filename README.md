@@ -50,6 +50,14 @@ in the orbital plane of the SMC, with the LMC as host. Points are colored by
 overdensity ρ/ρ_mean − 1. The SMC position is marked by the black star; its
 orbital velocity by the blue arrow. The pink line shows the past orbit of the SMC.*
 
+### Smoothed Overdensity Map in LMC Frame
+
+![Mollweide Map](wake_quiver-SMC-LMC-21-24kpc.png)
+
+*Smoothed overdensity map (Δρ/ρ̄) in the LMC reference frame using Gaia DR3 
+data at 21-24 kpc. The past orbit of the SMC in the LMC frame is shown in green; 
+the SMC's present position is marked by the red star.*
+
 > **Note:** Results are preliminary and under scientific validation as part of
 > ongoing doctoral research.
 
