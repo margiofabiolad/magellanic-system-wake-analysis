@@ -30,30 +30,12 @@ on their position relative to the SMC's orbit, and their mean velocity fields ar
 compared.
 
 ---
-
-## What I Did
-
-### 1. Coordinate Transformations
-- Transformed Gaia DR3 observational coordinates (RA, Dec, distance, proper motions,
-  radial velocity) into the **orbital reference frame of the SMC** using Astropy and Gala
-- Defined a rotated coordinate system aligned with the SMC's past orbital trajectory
-  around the LMC
-
-### 2. Stellar Population Classification
-- Classified stars into **Wake** and **Collective** populations based on their
-  3D position relative to the SMC's orbital plane
-- Applied radial cuts at 25–35 kpc from the LMC center
-
 ### 3. Velocity Field Visualizations
-- **2D Quiver plots** in the SMC orbital plane showing mean velocity fields
-  for Wake and Collective populations — adapted from Fushimi & Mosquera's
-  original implementation to work in the SMC orbital frame
+- **Mollweide projections** of stellar density and velocity fields — implemented 
+  using HEALPix pixelization, adapting existing tools to the LMC/SMC reference frames
+- **2D Quiver plots** in the SMC orbital plane — adapted from Fushimi & Mosquera's 
+  original implementation
 - **3D Quiver plots** showing the full 3D velocity structure
-- **Mollweide projections** of stellar density and velocity fields using Healpy
-
-### 4. Statistical Analysis
-- **Welch's t-test** comparing mean velocities between Wake and Collective populations
-- Density field computation and overdensity mapping (ρ/ρ_mean − 1)
 
 ---
 
@@ -108,10 +90,10 @@ de La Plata), who performed the kinematic analysis in the center of mass frame
 of the Magellanic Clouds. I adapted their code to work in the orbital plane of
 the SMC, using the LMC as the host system instead of the Galactic center.
 Additional visualizations (Mollweide projections, 3D quiver plots) and the
-statistical analysis of Wake vs Collective stellar populations were developed
-independently as part of this work.
-
----
+statistical analysis of Wake vs Collective stellar populations were implemented
+and adapted from existing tools in the community, under the guidance of
+Dr. Mariano Domínguez (IATE, UNC), Dr. Mercedes Mosquera and Dr. Keiko Fushimi
+(Universidad Nacional de La Plata).
 
 ## References
 
