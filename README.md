@@ -30,12 +30,30 @@ on their position relative to the SMC's orbit, and their mean velocity fields ar
 compared.
 
 ---
+
+## What I Did
+
+### 1. Coordinate Transformations
+- Transformed Gaia DR3 observational coordinates (RA, Dec, distance, proper motions,
+  radial velocity) into the **orbital reference frame of the SMC** using Astropy and Gala
+- Defined a rotated coordinate system aligned with the SMC's past orbital trajectory
+  around the LMC
+
+### 2. Stellar Population Classification
+- Classified stars into **Wake** and **Collective** populations based on their
+  3D position relative to the SMC's orbital plane
+- Applied radial cuts at 25–35 kpc from the LMC center
+
 ### 3. Velocity Field Visualizations
-- **Mollweide projections** of stellar density and velocity fields — implemented 
+- **Mollweide projections** of stellar density and velocity fields — implemented
   using HEALPix pixelization, adapting existing tools to the LMC/SMC reference frames
-- **2D Quiver plots** in the SMC orbital plane — adapted from Fushimi & Mosquera's 
+- **2D Quiver plots** in the SMC orbital plane — adapted from Fushimi & Mosquera's
   original implementation
 - **3D Quiver plots** showing the full 3D velocity structure
+
+### 4. Statistical Analysis
+- **Welch's t-test** comparing mean velocities between Wake and Collective populations
+- Density field computation and overdensity mapping (ρ/ρ_mean − 1)
 
 ---
 
@@ -43,7 +61,7 @@ compared.
 
 ### 2D Quiver: Velocity Fields in the SMC Orbital Plane
 
-![Quiver SMC-LMC](wake_quiver-SMC-LMC.png)
+![Quiver SMC-LMC](figures/quiver-LMC-host-SMC.png)
 
 *Velocity fields of Wake (red) and Collective (orange/green) stellar populations
 in the orbital plane of the SMC, with the LMC as host. Points are colored by
@@ -52,10 +70,10 @@ orbital velocity by the blue arrow. The pink line shows the past orbit of the SM
 
 ### Smoothed Overdensity Map in LMC Frame
 
-![Mollweide Map](wake_quiver-SMC-LMC-21-24kpc.png)
+![Mollweide Map](figures/wake_quiver-SMC-LMC-21-24kpc.png)
 
-*Smoothed overdensity map (Δρ/ρ̄) in the LMC reference frame using Gaia DR3 
-data at 21-24 kpc. The past orbit of the SMC in the LMC frame is shown in green; 
+*Smoothed overdensity map (Δρ/ρ̄) in the LMC reference frame using Gaia DR3
+data at 21-24 kpc. The past orbit of the SMC in the LMC frame is shown in green;
 the SMC's present position is marked by the red star.*
 
 > **Note:** Results are preliminary and under scientific validation as part of
@@ -84,9 +102,11 @@ the SMC's present position is marked by the red star.*
 - **Observational data**: Gaia DR3 survey — globular clusters and RR Lyrae stars
   in the Magellanic System. Publicly available at the
   [Gaia Archive](https://gea.esac.esa.int/archive/).
-  The dataset was downloaded and pre-processed by Mercedes Mosquera and 
-  Keiko Fushimi (Universidad Nacional de La Plata). 
+  The dataset was downloaded and pre-processed by Mercedes Mosquera and
+  Keiko Fushimi (Universidad Nacional de La Plata).
   Raw data are not included in this repository.
+- **Simulation data**: N-body simulations from Garavito-Camargo et al. (2019).
+  Not included in this repository due to size.
 
 ---
 
@@ -103,8 +123,13 @@ and adapted from existing tools in the community, under the guidance of
 Dr. Mariano Domínguez (IATE, UNC), Dr. Mercedes Mosquera and Dr. Keiko Fushimi
 (Universidad Nacional de La Plata).
 
+---
+
 ## References
 
+- Garavito-Camargo, N. et al. (2019). *Hunting for the Dark Matter Wake Induced
+  by the LMC*. ApJ, 884, 51.
+  [doi:10.3847/1538-4357/ab32eb](https://doi.org/10.3847/1538-4357/ab32eb)
 - Fushimi, K. & Mosquera, M. et al. (2024). *A determination of the LMC dark matter
   subhalo mass using the MW halo stars in its gravitational wake*.
   [arXiv:2309.12989](https://arxiv.org/abs/2309.12989)
