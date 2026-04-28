@@ -76,6 +76,8 @@ orbital velocity by the blue arrow. The pink line shows the past orbit of the SM
 data at 21-24 kpc. The past orbit of the SMC in the LMC frame is shown in green;
 the SMC's present position is marked by the red star.*
 
+### Alternative Wake Detection: Residual Density and Phase-Space Analysis
+[las 3 figuras nuevas]
 > **Note:** Results are preliminary and under scientific validation as part of
 > ongoing doctoral research.
 
@@ -133,6 +135,7 @@ Dr. Mariano Domínguez (IATE, UNC), Dr. Mercedes Mosquera and Dr. Keiko Fushimi
 - Fushimi, K. & Mosquera, M. et al. (2024). *A determination of the LMC dark matter
   subhalo mass using the MW halo stars in its gravitational wake*.
   [arXiv:2309.12989](https://arxiv.org/abs/2309.12989)
+- Foote, H. et al. (2026). [arXiv:2601.00946](https://arxiv.org/abs/2601.00946)
 
 ---
 
