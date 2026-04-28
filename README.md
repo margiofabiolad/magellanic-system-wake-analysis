@@ -61,7 +61,7 @@ compared.
 
 ### 2D Quiver: Velocity Fields in the SMC Orbital Plane
 
-![Quiver SMC-LMC](figures/quiver-LMC-host-SMC.png)
+![Quiver SMC-LMC](quiver-LMC-host-SMC.png)
 
 *Velocity fields of Wake (red) and Collective (orange/green) stellar populations
 in the orbital plane of the SMC, with the LMC as host. Points are colored by
@@ -70,7 +70,7 @@ orbital velocity by the blue arrow. The pink line shows the past orbit of the SM
 
 ### Smoothed Overdensity Map in LMC Frame
 
-![Mollweide Map](figures/wake_quiver-SMC-LMC-21-24kpc.png)
+![Mollweide Map](wake_quiver-SMC-LMC-21-24kpc.png)
 
 *Smoothed overdensity map (Δρ/ρ̄) in the LMC reference frame using Gaia DR3
 data at 21-24 kpc. The past orbit of the SMC in the LMC frame is shown in green;
