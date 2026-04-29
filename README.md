@@ -77,7 +77,28 @@ data at 21-24 kpc. The past orbit of the SMC in the LMC frame is shown in green;
 the SMC's present position is marked by the red star.*
 
 ### Alternative Wake Detection: Residual Density and Phase-Space Analysis
-[las 3 figuras nuevas]
+#### Inspired by Foote et al. (2026), Figure 3f
+
+As an alternative to Mollweide projections, the SMC-induced wake in the LMC 
+is also investigated through residual density maps and phase-space analysis 
+in the SMC orbital plane.
+
+![Delta Map](delta_24-40_map.png)
+
+*Residual overdensity map at 24-40 kpc in the SMC orbital plane (|z| < 20 kpc).
+The dashed line separates leading and trailing regions.*
+
+![Phase Scatter](phase_scatter_density_23_40.png)
+
+*Phase-space diagram: parallel velocity v∥ vs angular position ξ along the 
+orbital tangent, 23-40 kpc.*
+
+![Phase Histogram](phase_hist_23_40.png)
+
+*Velocity distribution comparing trailing (blue) vs leading (orange) stellar 
+populations at 23-40 kpc.*
+
+
 > **Note:** Results are preliminary and under scientific validation as part of
 > ongoing doctoral research.
 
