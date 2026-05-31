@@ -1,6 +1,8 @@
 # Kinematic Analysis of the Magellanic System: SMC-LMC Host-Satellite Dynamics
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/margiofabiolad/magellanic-system-wake-analysis/blob/main/mollviews-quiver-NUEVO.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/margiofabiolad/magellanic-system-wake-analysis/blob/main/mollviews-quiver-NUEVO.ipynb) `mollviews-quiver-NUEVO.ipynb`
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/margiofabiolad/magellanic-system-wake-analysis/blob/main/quiver-LCM-host-SMC.ipynb) `quiver-LCM-host-SMC.ipynb`
 
 ## Overview
 
