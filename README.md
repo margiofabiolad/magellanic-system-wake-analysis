@@ -4,6 +4,13 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/margiofabiolad/magellanic-system-wake-analysis/blob/main/quiver-LCM-host-SMC.ipynb) `quiver-LCM-host-SMC.ipynb`
 
+## Data Science Skills Demonstrated
+- Processing and querying large astronomical catalogs (**1M+ objects**, Gaia DR3)
+- Coordinate system transformations in high-dimensional space
+- Spatial data visualization (Mollweide projections, HEALPix pixelization)
+- Statistical hypothesis testing (Welch's t-test) on real observational data
+- Building end-to-end analysis pipelines in Python
+
 ## Overview
 
 This project extends the kinematic analysis of the Magellanic System to study the
