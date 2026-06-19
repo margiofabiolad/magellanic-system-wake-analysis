@@ -13,11 +13,10 @@
 
 ## Overview
 
-This project extends the kinematic analysis of the Magellanic System to study the
-influence of the Small Magellanic Cloud (SMC) on the Large Magellanic Cloud (LMC),
-treating the LMC as the host system. The analysis combines observational data from
-the **Gaia DR3 survey** with N-body simulations, using coordinate transformations,
-velocity field visualizations, and statistical comparisons of stellar populations.
+This project analyzes the kinematic structure of the Magellanic System using real observational 
+data from the Gaia DR3 survey. It combines coordinate transformations, velocity field visualizations 
+(quiver plots), and overdensity analysis to study the influence of the SMC on the LMC and detect a 
+possible stellar wake.
 
 This work was developed as part of doctoral research at IATE (UNC) and extends the
 methodology of Garavito-Camargo et al. (2019) and Fushimi & Mosquera (2024)
